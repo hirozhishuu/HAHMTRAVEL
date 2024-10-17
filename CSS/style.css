@@ -1,0 +1,288 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+.nav-link ul{
+    list-style: none;
+    display: flex;
+}
+p span{
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+.nav-link ul li a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms;
+}
+.logo h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.logo h1 span{
+    color: red;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+}
+.img video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+object-fit: cover;
+object-position: center;
+}
+.home h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.home p{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: bold;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: red;
+    transition: 300ms;
+    box-shadow: 20px;
+}
+.home a:hover{
+ font-size: 23px;
+ transition: 300ms;
+}
+.content{
+    width: 70%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin: auto;
+}
+.atas{
+    width: 315px;
+    height: 250px;
+    background-image: url(https://images.pexels.com/photos/2900791/pexels-photo-2900791.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bawah{
+    width: 315px;
+    height: 240px;
+    background-color: whitesmoke;
+}
+
+.bawah h1{
+    margin-left: 80px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.bawah p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah a{
+    text-decoration: none;
+    color: white;
+    width: auto;
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 100px;
+    transition-duration: 300ms;
+}
+.bawah a:hover{
+ font-size: 20px;
+ transition: 300ms;
+}
+/* card 2 */
+.atas2{
+    width: 315px;
+    height: 250px;
+    background-image: url(https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bawah2{
+    width: 315px;
+    height: 240px;
+    background-color: whitesmoke;
+}
+
+.bawah2 h1{
+    margin-left: 50px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.bawah2 p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah2 a{
+    text-decoration: none;
+    color: white;
+    width: auto;
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 100px;
+    transition-duration: 300ms;
+}
+.bawah2 a:hover{
+ font-size: 20px;
+ transition: 300ms;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    margin: 50px;
+    box-shadow: 30px;
+}    
+.garis{
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+.Judul{
+    text-align: center;
+    padding: 5px;
+}
+.bg2{
+    background-image: url(https://images.pexels.com/photos/19261157/pexels-photo-19261157/free-photo-of-turtle-on-seabed.jpeg?auto=compress&cs=tinysrgb&w=1000);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.bg2 .button{
+    margin: 20px;
+    color: white;
+    width: auto;
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition-duration: 300ms;
+}
+.bg2 a{
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+.bg2 .button :hover{
+    font-size: 20px;
+    transition: 300ms;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.garisf{
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+
+.cr{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.quick a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: 300ms; 
+    margin-top: 40px; 
+}
+.quick{
+    text-align: center;
+}
+.quick a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms;
+}
+.quick h1{
+    margin-left: -5px;
+}
+html{
+    scroll-behavior: smooth;
+}
